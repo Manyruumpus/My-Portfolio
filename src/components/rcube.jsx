@@ -11,7 +11,7 @@ import { useGLTF, useAnimations,Float} from '@react-three/drei'
 
 const Rcube=(props)=> {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('public/models/rubiks_cube.glb')
+  const { nodes, materials, animations } = useGLTF('/models/rubiks_cube.glb')
   const { actions } = useAnimations(animations, group)
   return (
     <Float ref={group} {...props} dispose={null}>
