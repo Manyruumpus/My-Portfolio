@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { PerspectiveCamera, OrbitControls, Html, useProgress } from '@react-three/drei';
-import HackerRoom from '../components/hackerroom.jsx';
+import HackerRoom from '../components/HackerRoom.jsx';
 // import { Leva, useControls } from 'leva';
 import { useMediaQuery } from 'react-responsive';
 import calculateSizes  from '../constants/index.js';
