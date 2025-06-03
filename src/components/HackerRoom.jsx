@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const HackerRoom=(props) =>{
-  const { nodes, materials } = useGLTF('public/models/computer_and_laptop.glb')
+  const { nodes, materials } = useGLTF('/models/computer_and_laptop.glb')
   return (
     <group {...props} dispose={null}>
       <group
